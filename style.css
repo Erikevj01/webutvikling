@@ -1,0 +1,16 @@
+body{
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: navy;
+    color: white;
+}
+
+img{
+    width: 100%;
+    max-width: 600px;
+}
+
+.oppskrift{
+    background-color: gray;
+}
