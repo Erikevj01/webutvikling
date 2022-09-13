@@ -1,0 +1,58 @@
+<!-- Jeg fikk 17 errors og 5 warnings da jeg validerte htlm filen. -->
+<!DOCTYPE html>
+<!-- Satt inn DOCTYPE på toppen av dokumentet for å vise hvilket språk som skal benyttes. -->
+<html lang="en">
+<!-- La inn Engelsk som språk inn i html taggen for å erklære hvilket språk som skal benyttes i dokumentet. -->
+    <head>
+        <meta charset="UTF-8">
+        <!-- Satt in charset for å spesifisere hvilke tegn som brukes i dokumentet. -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Web eksamen del 1</title>
+    </head>
+    <!-- Flyttet head og taggene inni utenfor og over body. Fikset href i link taggen som manglet en ". -->
+    <body>
+        <nav>
+            <h1>Logo</h1>
+            <ul>
+                <li> <a href="#">Boatswain schooner</a></li>
+                <li> <a href="#">Account lookout</a></li>
+                <li> <a href="#">Sail ho shrouds</a></li>
+            </ul>
+            <!-- Satt ul tag rundt li taggene -->
+        </nav>
+        <header>
+            <h2>Yar Pirate Ipsum</h2>
+            <!-- Byttet ut h1 taggen med h2 siden h1 ble brukt tidligere i Logoen -->
+            <p>Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl.</p>
+            <a class="button">Les mer</a>
+        </header>
+        <div>
+            <main>
+                <!-- Fjernet main id fra div taggen siden den ikke eksisterer i css filen. La inn main tag rundt article taggene for å ordne riktig css -->
+                <article>
+                    <h3>Prow scuttle</h3>
+                    <p>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.</p>
+                    <a href="#">Les mer</a>
+                </article>
+                <!-- La inn manglene tag for å avslutte article -->
+                <article>
+                    <h3>Jack Tar transom</h3>
+                    <p>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.</p>
+                    <a href="#">Les mer</a>
+                </article>
+                <article>
+                    <h3>Trysail Sail</h3>
+                    <p>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.</p>
+                    <a href="#">Les mer</a>
+                </article>
+            </main>
+        </div>
+        <!-- Byttet ut alle overskrifter med h1 til h3 siden de er underoverskrifter -->
+        <footer>
+            <span>Twitter</span>
+            <span>Facebook</span>
+            <span>Instagram</span>
+        </footer>
+    </body>
+</html>
