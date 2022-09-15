@@ -13,7 +13,8 @@
     <!-- Flyttet head og taggene inni utenfor og over body. Fikset href i link taggen som manglet en ". -->
     <body>
         <nav>
-            <h1>Logo</h1>
+            <h2>Logo</h2>
+            <!-- Byttet til h2 siden dette ikke er hovedoverskriften -->
             <ul>
                 <li> <a href="#">Boatswain schooner</a></li>
                 <li> <a href="#">Account lookout</a></li>
@@ -22,33 +23,30 @@
             <!-- Satt ul tag rundt li taggene -->
         </nav>
         <header>
-            <h2>Yar Pirate Ipsum</h2>
-            <!-- Byttet ut h1 taggen med h2 siden h1 ble brukt tidligere i Logoen -->
+            <h1>Yar Pirate Ipsum</h1>
             <p>Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl.</p>
             <a class="button">Les mer</a>
         </header>
-        <div>
-            <main>
-                <!-- Fjernet main id fra div taggen siden den ikke eksisterer i css filen. La inn main tag rundt article taggene for å ordne riktig css -->
-                <article>
-                    <h3>Prow scuttle</h3>
-                    <p>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.</p>
-                    <a href="#">Les mer</a>
-                </article>
-                <!-- La inn manglene tag for å avslutte article -->
-                <article>
-                    <h3>Jack Tar transom</h3>
-                    <p>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.</p>
-                    <a href="#">Les mer</a>
-                </article>
-                <article>
-                    <h3>Trysail Sail</h3>
-                    <p>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.</p>
-                    <a href="#">Les mer</a>
-                </article>
-            </main>
-        </div>
-        <!-- Byttet ut alle overskrifter med h1 til h3 siden de er underoverskrifter -->
+        <main>
+            <!-- Byttet ut div taggen men en main tag siden main benyttes som en tag og ikke id i css filen -->
+            <article>
+                <h2>Prow scuttle</h2>
+                <p>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.</p>
+                <a href="#">Les mer</a>
+            </article>
+            <!-- La inn manglene tag for å avslutte article -->
+            <article>
+                <h2>Jack Tar transom</h2>
+                <p>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.</p>
+                <a href="#">Les mer</a>
+            </article>
+            <article>
+                <h2>Trysail Sail</h2>
+                <p>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors.</p>
+                <a href="#">Les mer</a>
+            </article>
+        </main>
+        <!-- Byttet ut alle overskrifter med h1 til h2 siden de er underoverskrifter -->
         <footer>
             <span>Twitter</span>
             <span>Facebook</span>
