@@ -113,6 +113,7 @@ main section{
     background-color: #C8D5B9;
     text-decoration: none;
     color: #000;
+    transition-duration: 0.4s;
 }
 
 .button:hover{
