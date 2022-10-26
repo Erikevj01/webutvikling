@@ -9,8 +9,7 @@ body{
     background-color: #FAF3DD;
 }
 
-
-#front-page-container{
+#page-container{
     display: grid;
     grid-template-areas:"header" 
                         "main"
@@ -60,7 +59,7 @@ nav{
 
 #main-menu{
     position: absolute;
-    top:110px;
+    top:115px;
     left:0;
     background-color: #8FC0A9;
     width: 100%;
@@ -114,6 +113,9 @@ main section{
     padding: 1rem;
 }
 
+#main-section{
+    min-width: 56.5%;
+}
 
 .button{
     display: inline-block;
@@ -159,7 +161,7 @@ footer{
 
 
 @media only screen and (min-width: 900px){
-    #front-page-container{
+    #page-container{
         width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;

@@ -1,0 +1,77 @@
+/**CSS for tables i CMS og UU vs SEO sider**/
+/*Eggshell #FAF3DD , Laurel Green #C8D5B9 , Cambridge Blue #8FC0A9 , Green Sheen #68B0AB , Amazon #4A7C59*/
+
+#cms-table{
+    width: 100%;
+    display: table;
+}
+
+.filler-cell{
+    display: table-cell;
+    width: 10%;
+}
+
+#cms-table-header-row{
+    display: table-header-group;
+}
+
+.cms-table-header-cell{
+    display: table-cell;
+    padding: 12px;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid #C8D5B9;
+    width: 25%;
+}
+
+#cms-table-body{
+    display: table-row-group;
+}
+
+.cms-table-body-row{
+    display: table-row;
+}
+
+.cms-table-body-cell{
+    display: table-cell;
+    padding: 12px;
+    border: 2px solid #C8D5B9;
+    }
+
+
+#uuseo-table{
+    width: 100%;
+    display: table;
+}
+
+.filler-cell{
+    display: table-cell;
+    width: 10%;
+}
+
+#uuseo-table-header-row{
+    display: table-header-group;
+}
+
+.uuseo-table-header-cell{
+    display: table-cell;
+    padding: 12px;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid #C8D5B9;
+    width: 25%;
+}
+
+#uuseo-table-body{
+    display: table-row-group;
+}
+
+.uuseo-table-body-row{
+    display: table-row;
+}
+
+.uuseo-table-body-cell{
+    display: table-cell;
+    padding: 12px;
+    border: 2px solid #C8D5B9;
+    }
