@@ -1,27 +1,27 @@
-/**CSS for tables i CMS og UU vs SEO sider**/
 /*Eggshell #FAF3DD , Laurel Green #C8D5B9 , Cambridge Blue #8FC0A9 , Green Sheen #68B0AB , Amazon #4A7C59*/
 
+/**CSS for CMS table**/
 #cms-table{
-    width: 100%;
     display: table;
+    width: 100%;
 }
 
 .filler-cell{
     display: table-cell;
-    width: 10%;
 }
 
 #cms-table-header-row{
     display: table-header-group;
+    width: 100%;
 }
 
 .cms-table-header-cell{
     display: table-cell;
+    border: 2px solid #C8D5B9;
     padding: 12px;
     text-align: center;
     font-size: 25px;
-    border: 2px solid #C8D5B9;
-    width: 25%;
+    width: 30%;
 }
 
 #cms-table-body{
@@ -30,23 +30,29 @@
 
 .cms-table-body-row{
     display: table-row;
+    width: 100%;
 }
 
 .cms-table-body-cell{
     display: table-cell;
-    padding: 12px;
     border: 2px solid #C8D5B9;
+    padding: 12px;
+    }
+
+.cms-table-side-cell{
+    display: table-cell;
+    border: 2px solid #C8D5B9;
+    padding: 12px;
+    text-align: center;
+    font-size: 25px;
+    width: 10%;
     }
 
 
+/**CSS for UU vs SEO**/    
 #uuseo-table{
     width: 100%;
     display: table;
-}
-
-.filler-cell{
-    display: table-cell;
-    width: 10%;
 }
 
 #uuseo-table-header-row{
@@ -55,11 +61,10 @@
 
 .uuseo-table-header-cell{
     display: table-cell;
+    border: 2px solid #C8D5B9;
     padding: 12px;
     text-align: center;
     font-size: 25px;
-    border: 2px solid #C8D5B9;
-    width: 25%;
 }
 
 #uuseo-table-body{
@@ -72,6 +77,6 @@
 
 .uuseo-table-body-cell{
     display: table-cell;
-    padding: 12px;
     border: 2px solid #C8D5B9;
+    padding: 12px;
     }
