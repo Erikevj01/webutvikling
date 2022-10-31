@@ -15,7 +15,7 @@ body{
                         "main"
                         "footer";
     grid-template-columns: 1fr;
-
+    font-size: 18px;
 }
 
 /**HEADER**/
@@ -59,7 +59,7 @@ nav{
 
 #main-menu{
     position: absolute;
-    top:115px;
+    top:114px;
     left:0;
     background-color: #8FC0A9;
     width: 100%;
@@ -139,6 +139,28 @@ main section{
     color: #FAF3DD;
 }
 
+details{
+    padding: 1rem;
+}
+
+details summary{
+    width: 200px;
+    background-color: #C8D5B9;
+    box-shadow: 1px 1px 2px #4A7C59;
+    padding: 4px;
+    border: none;
+    font-size: 20px;
+  }
+  
+  details p{
+    background-color: #C8D5B9;
+    box-shadow: 1px 1px 2px #4A7C59;
+    padding: 4px;
+    margin: 0;
+    color: #68B0AB;
+    font-size: 20px;
+  }
+
 main article{
     flex-basis:250px;
     flex-grow: 1;
@@ -171,7 +193,7 @@ footer{
                             "footer footer footer";
         grid-gap: 1rem;
         grid-row-gap: 0;
-    
+        font-size: 16px;
     }
 
     header nav{

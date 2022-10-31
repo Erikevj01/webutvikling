@@ -6,8 +6,12 @@
     width: 100%;
 }
 
-.filler-cell{
+.cms-filler-cell{
     display: table-cell;
+    padding: 12px;
+    text-align: center;
+    font-size: 25px;
+    width: 10%;
 }
 
 #cms-table-header-row{
@@ -17,7 +21,7 @@
 
 .cms-table-header-cell{
     display: table-cell;
-    border: 2px solid #C8D5B9;
+    border: 2px solid #4A7C59;
     padding: 12px;
     text-align: center;
     font-size: 25px;
@@ -35,36 +39,44 @@
 
 .cms-table-body-cell{
     display: table-cell;
-    border: 2px solid #C8D5B9;
+    border: 2px solid #4A7C59;
     padding: 12px;
     }
 
 .cms-table-side-cell{
     display: table-cell;
-    border: 2px solid #C8D5B9;
+    border: 2px solid #4A7C59;
     padding: 12px;
     text-align: center;
     font-size: 25px;
-    width: 10%;
+    width: 5%;
     }
 
 
 /**CSS for UU vs SEO**/    
 #uuseo-table{
-    width: 100%;
     display: table;
+    width: 100%;
+}
+
+.uuseo-filler-cell{
+    display: table-cell;
+    padding: 12px;
+    width: 10%;
 }
 
 #uuseo-table-header-row{
     display: table-header-group;
+    width: 100%;
 }
 
 .uuseo-table-header-cell{
     display: table-cell;
-    border: 2px solid #C8D5B9;
+    border: 2px solid #4A7C59;
     padding: 12px;
     text-align: center;
     font-size: 25px;
+    width: 45%;
 }
 
 #uuseo-table-body{
@@ -73,10 +85,20 @@
 
 .uuseo-table-body-row{
     display: table-row;
+    width: 100%;
 }
 
 .uuseo-table-body-cell{
     display: table-cell;
-    border: 2px solid #C8D5B9;
+    border: 2px solid #4A7C59;
     padding: 12px;
+    }
+
+.uuseo-table-side-cell{
+    display: table-cell;
+    border: 2px solid #4A7C59;
+    padding: 12px;
+    text-align: center;
+    font-size: 25px;
+    width: 10%;
     }
