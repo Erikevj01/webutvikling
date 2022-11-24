@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Website with articles about webdevelopment">
 
     <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link href="font/css/fontawesome.css" rel="stylesheet">
     <link href="font/css/brands.css" rel="stylesheet">
     <link href="font/css/solid.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/table.css">
+    <link rel="stylesheet" type="text/css" href="css/cms-table.css">
     
     <title>Seamless og Headless CMS</title>
 </head>
@@ -19,15 +18,15 @@
     <div id="page-container">
         <header>
             <nav>
-                <a href="index.html" alt="logo"><i class="fa-brands fa-codepen"></i></a>
+                <a href="index.html"><i class="fa-brands fa-codepen"></i></a>
                 <h1>CMS</h1>
-                <a href="javascript:void(0)" id="mobile-icon" onclick="mobileMenu()"  alt="mobil meny"><i class="fa-solid fa-bars"></i></a>
+                <a href="javascript:void(0)" id="mobile-icon" onclick="mobileMenu()"><i class="fa-solid fa-bars"></i></a>
                 <ul id="main-menu">
                     <li><a href="index.html">Hjem</a></li>
                     <li><a href="uu_vs_seo.html">UU vs SEO</a></li>
                     <li><a href="cms.html">CMS</a></li>
-                    <li><a href="analyse.html">Analyse</a></li>
-                    <li><a href="kontakt_oss.html">Kontakt oss</a></li>
+                    <li><a href="innholdsside.html">Analyse</a></li>
+                    <li><a href="innholdsside.html">Kontakt oss</a></li>
                 </ul>
             </nav>
             <img src="img/header-background-image.jpg" alt="header background image" class="header-image">
@@ -102,60 +101,56 @@
                     Programvare for dokumentbehandling fungerer hovedsakelig med Word-filer, regneark, bilder og PDF-filer.
                 </p>
                 <div id="cms-table">
-                    <div id="cms-table-header-row">
-                        <div class="cms-filler-cell"></div>
-                        <div class="cms-table-header-cell">Fordeler</div>
-                        <div class="cms-table-header-cell">Ulemper</div>
-                        <div class="cms-table-header-cell">Likheter/Ulikheter</div>
+                    <div class="box1">WCMS</div>
+                    <div class="box2">ECM</div>
+                    <div class="box3">DMS</div>
+                    <div class="box4"> </div>
+
+                    <div class="box5">
+                        Fleksibilitet til å lage personlig tilpasset innhold for et nettsted, som enkelt kan designes, opprettes og vedlikeholdes.
+                        Skalerbare systemer, som dermed gjøre det enkelt for organisasjoner å implementere dem over hele linjen.
                     </div>
-                    <div id="cms-table-body">
-                        <div class="cms-table-body-row">
-                            <div class="cms-table-side-cell">WCMS</div>
-                            <div class="cms-table-body-cell">
-                                Fleksibilitet til å lage personlig tilpasset innhold for et nettsted, som enkelt kan designes, opprettes og vedlikeholdes.
-                                Skalerbare systemer, som dermed gjøre det enkelt for organisasjoner å implementere dem over hele linjen
-                            </div>
-                            <div class="cms-table-body-cell">
-                                Uten regelmessige oppdateringer og patcher kan systemet være sårbart for nettangrep.
-                                Det er en mulighet for mindre ytelse på store systemer. Dette skyldes behovet for bra maskinvare som kan koste mye.
-                            </div>
-                            <div class="cms-table-body-cell">
-                                Brukes til å opprette, administrere og endre innholdet på en nettside.
-                                Dette inkluderer innhold som er tekstlig, sammen med lyd, bilder, grafikk og annet.
-                            </div>
-                        </div>
-                        <div class="cms-table-body-row">
-                            <div class="cms-table-side-cell">ECM</div>
-                            <div class="cms-table-body-cell">
-                                Logger alle brukernes operasjoner, tilganger og aktiviteter riktig inn i et omfattende revisjonsspor.
-                                Beskytter mot sletting og endringer av uautoriserte brukere.
-                                Legger til struktur og metadata til dokumentene dine slik at de er lettere å finne og gjør det mulig å konfigurere regler.
-                            </div>
-                            <div class="cms-table-body-cell">
-                                Mangelfulle integrerings- og automatiserings muligheter på tvers av plattformer for ikke-utviklere.
-                                De fleste inneholder ikke sjekklister som en nyttig måte å redusere menneskelige feil når autoriserte brukere gjennomgår dokumenthåndtering.
-                            </div>
-                            <div class="cms-table-body-cell">
-                                Støtter strukturert og ustrukturert informasjon. Bruker SaaS-teknolog og fikser uorganisert data i likhet med DMS.
-                                Tilbyr de fleste funksjonene til DMS, sammen med mange flere.
-                            </div>
-                        </div>
-                        <div class="cms-table-body-row">
-                            <div class="cms-table-side-cell">DMS</div>
-                            <div class="cms-table-body-cell">
-                                Tilbyr versjonssporing for å administrere de forskjellige versjonene av filen.
-                                Kan hente en hvilken som helst tidligere versjon av filen/dokumentet ved feil oppdatering eller publisering.
-                                DMS er et relativt enklere system som krever mindre ekspertise og vedlikehold.
-                            </div>
-                            <div class="cms-table-body-cell">
-                                Støtter færre typer data enn andre CMS typer og har dermed færre bruksområder for brukeren.
-                                Når det sammenlignes med fysisk lagring av papir er det mer kostbart og sårbart for hacking.
-                            </div>
-                            <div class="cms-table-body-cell">
-                                Støtter hovedsaklig strukturert informasjon. Bruker SaaS-teknologi og fikser uorganisert data i likhet med ECM.
-                            </div>
-                        </div>
+                    <div class="box6">
+                        Uten regelmessige oppdateringer og patcher kan systemet være sårbart for nettangrep. Det er en mulighet for mindre ytelse på store systemer.
+                        Dette skyldes behovet for bra maskinvare som kan koste mye.
                     </div>
+                    <div class="box7">
+                        Brukes til å opprette, administrere og endre innholdet på en nettside. Dette inkluderer innhold som er tekstlig, sammen med lyd, bilder, grafikk og annet. 
+                    </div>
+                    <div class="box8">
+                        Logger alle brukernes operasjoner, tilganger og aktiviteter riktig inn i et omfattende revisjonsspor. Beskytter mot sletting og endringer av uautoriserte brukere.
+                        legger til struktur og metadata til dokumentene dine slik at de er lettere å finne og gjør det mulig å konfigurere regler.
+                    </div>
+                    <div class="box9">
+                        Mangelfulle integrerings- og automatiserings muligheter på tvers av plattformer for ikke-utviklere.
+                        De fleste inneholder ikke sjekklister som en nyttig måte å redusere menneskelige feil når autoriserte brukere gjennomgår dokumenthåndtering.
+                    </div>
+                    <div class="box10">
+                        Støtter strukturert og ustrukturert informasjon. Bruker SaaS-teknolog og fikser uorganisert data i likhet med DMS.
+                        Tilbyr de fleste funksjonene til DMS, sammen med mange flere.
+                    </div>
+                    <div class="box11">
+                        Tilbyr versjonssporing for å administrere de forskjellige versjonene av filen.
+                        Kan hente en hvilken som helst tidligere versjon av filen/dokumentet ved feil oppdatering eller publisering.
+                        DMS er et relativt enklere system som krever mindre ekspertise og vedlikehold.
+                    </div>
+                    <div class="box12">
+                        Støtter færre typer data enn andre CMS typer og har dermed færre bruksområder for brukeren.
+                        Når det sammenlignes med fysisk lagring av papir er det mer kostbart og sårbart for hacking.
+                    </div>
+                    <div class="box13">
+                        Støtter hovedsakelig strukturert data. Bruker SaaS-teknologi og fikser uorganisert data i likhet med ECM. 
+                    </div>
+
+                    <div class="box14">Fordeler</div>
+                    <div class="box15">Ulemper</div>
+                    <div class="box16">Likheter/Ulikheter</div>
+                    <div class="box17">Fordeler</div>
+                    <div class="box18">Ulemper</div>
+                    <div class="box19">Likheter/Ulikheter</div>
+                    <div class="box20">Fordeler</div>
+                    <div class="box21">Ulemper</div>
+                    <div class="box22">Likheter/Ulikheter</div>
                 </div>
                 <details>
                     <summary>Kilder</summary>
@@ -186,7 +181,7 @@
                     <p class="image-source">Photo by <a href="https://unsplash.com/@isaacmsmith?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Isaac Smith</a>
                     on <a href="https://unsplash.com/s/photos/analysis?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <a href="analyse.html">Les mer</a>
+                    <a href="innholdsside.html">Les mer</a>
                 </article>
             </section>
         </main>

@@ -177,7 +177,7 @@ article img{
 footer{
     grid-area: footer;
     background-color: #4A7C59;
-    color: #FAF3DD;
+    color: 000;
     padding: 3rem 2rem;
 }
 
@@ -189,8 +189,8 @@ footer{
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: auto auto auto;
         grid-template-areas: "header header header" 
-                            "main main main" 
-                            "footer footer footer";
+                             "main main main" 
+                             "footer footer footer";
         grid-gap: 1rem;
         grid-row-gap: 0;
         font-size: 16px;
