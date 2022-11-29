@@ -118,6 +118,9 @@ main section{
 #main-section{
     min-width: 75%;
 }
+#media-buttons{
+    min-width: 75%;
+}
 
 .button{
     display: inline-block;
