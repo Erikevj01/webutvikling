@@ -120,6 +120,8 @@ main section{
 }
 #media-buttons{
     min-width: 75%;
+    display: flex;
+    justify-content: first baseline;
 }
 
 .button{
