@@ -67,7 +67,6 @@ nav{
 
 #main-menu li{
     list-style: none;
-    
 }
 
 #main-menu a{
@@ -118,10 +117,40 @@ main section{
 #main-section{
     min-width: 75%;
 }
+
 #media-buttons{
     min-width: 75%;
     display: flex;
     justify-content: first baseline;
+    gap: 2rem;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #f0002A;
+    color: white;
 }
 
 .button{
@@ -178,6 +207,7 @@ main article{
 article img{
     width: 300px;
     height: 300px;
+    object-fit: cover;
 }
 
 /**FOOTER**/
