@@ -120,6 +120,7 @@ main section{
 
 #kart{
     max-width: 300px;
+    display: flex;
     object-fit: cover;
 }
 
