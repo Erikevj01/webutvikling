@@ -118,12 +118,6 @@ main section{
     min-width: 75%;
 }
 
-#kart{
-    max-width: 300px;
-    display: flex;
-    object-fit: cover;
-}
-
 #media-buttons{
     min-width: 75%;
     display: flex;
@@ -132,7 +126,7 @@ main section{
     padding-top: 2rem;
 }
 
-.fa {
+.fa{
     font-size: 50px;
     text-align: center;
     text-decoration: none;
@@ -141,21 +135,21 @@ main section{
     border-radius: 15px;
 }
   
-.fa:hover {
+.fa:hover{
     opacity: 0.7;
 }
   
-.fa-facebook {
+.fa-facebook{
     background: #3B5998;
     color: white;
 }
   
-.fa-twitter {
+.fa-twitter{
     background: #55ACEE;
     color: white;
 }
 
-.fa-pinterest {
+.fa-pinterest{
     background: #f0002A;
     color: white;
 }
@@ -268,5 +262,9 @@ footer{
 
     #mobile-icon{
         display: none;
+    }
+
+    #kart{
+        width: 300px;
     }
 }
