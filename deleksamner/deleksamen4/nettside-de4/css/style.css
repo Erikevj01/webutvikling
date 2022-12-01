@@ -118,6 +118,10 @@ main section{
     min-width: 75%;
 }
 
+#kart{
+    width: 300px;
+}
+
 #media-buttons{
     min-width: 75%;
     display: flex;
@@ -265,6 +269,6 @@ footer{
     }
 
     #kart{
-        width: 300px;
+        max-width: 1100px;
     }
 }
