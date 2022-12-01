@@ -120,6 +120,7 @@ main section{
 
 #kart{
     max-width: 300px;
+    object-fit: cover;
 }
 
 #media-buttons{
