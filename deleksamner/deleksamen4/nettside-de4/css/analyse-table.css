@@ -1,0 +1,173 @@
+/*Eggshell #FAF3DD , Laurel Green #C8D5B9 , Cambridge Blue #8FC0A9 , Green Sheen #68B0AB , Amazon #4A7C59*/
+#analyse-table{
+    display: grid;
+    grid-template-areas:
+    "a1"
+    "a2"
+    "a3"
+    "a4"
+    "a5"
+    "a6"
+    "a7"
+    "a8"
+    "a9"
+    "a10"
+    "a11"
+    "a12"
+    "a13"
+    "a14"
+    "a15"
+    "a16"
+    "a17"
+    "a18"
+    "a19"
+    "a20"
+    "a21"
+    "a22"
+    "a23"
+    "a24"
+    "a25"
+    "a26"
+    ;
+    background-color: #4A7C59;
+    grid-gap: 5px;
+    padding: 5px;
+}
+
+#analyse-table > div {
+    text-align: center;
+    padding: 5px;
+}
+
+/**/
+.box1{
+    grid-area: a1;
+    background-color: #68B0AB;
+    font-size: 30px;
+}
+.box2{
+    grid-area: a2;
+    background-color: #8FC0A9;
+    font-size: 30px;
+}
+.box3{
+    grid-area: a3;
+    background-color:#FAF3DD;
+}
+.box4{
+    grid-area: a4;
+    background-color:#8FC0A9;
+    font-size: 30px;
+}
+.box5{
+    grid-area: a5;
+    background-color:#FAF3DD;
+}
+.box6{
+    grid-area: a6;
+    background-color: #68B0AB;
+    font-size: 30px;
+}
+.box7{
+    grid-area: a7;
+    background-color:#8FC0A9;
+    font-size: 30px;
+}
+.box8{
+    grid-area: a8;
+    background-color:#FAF3DD;
+}
+.box9{
+    grid-area: a9;
+    background-color:#FAF3DD;
+}
+.box10{
+    grid-area: a10;
+    background-color:#FAF3DD;
+}
+.box11{
+    grid-area: a11;
+    background-color:#FAF3DD;
+}
+.box12{
+    grid-area: a12;
+    background-color:#FAF3DD;
+}
+.box13{
+    grid-area: a13;
+    background-color:#8FC0A9;
+    font-size: 30px;
+}
+.box14{
+    grid-area: a14;
+    background-color:#FAF3DD;
+}
+.box15{
+    grid-area: a15;
+    background-color:#FAF3DD;
+}
+.box16{
+    grid-area: a16;
+    background-color:#FAF3DD;
+    font-size: 30px;
+}
+.box17{
+    grid-area: a17;
+    background-color:#FAF3DD;
+}
+.box18{
+    grid-area: a18;
+    background-color:#FAF3DD;
+}
+.box19{
+    grid-area: a19;
+    background-color:#FAF3DD;
+}
+.box20{
+    grid-area: a20;
+    background-color:#FAF3DD;
+}
+.box21{
+    grid-area: a21;
+    background-color:#FAF3DD;
+}
+.box22{
+    grid-area: a22;
+    background-color:#FAF3DD;
+}
+.box23{
+    grid-area: a23;
+    background-color:#FAF3DD;
+}
+.box24{
+    grid-area: a24;
+    background-color:#FAF3DD;
+}
+.box25{
+    grid-area: a25;
+    background-color:#FAF3DD;
+}
+.box26{
+    grid-area: a26;
+    background-color:#FAF3DD;
+}
+
+
+@media only screen and (min-width: 900px){
+    #analyse-table{
+        display: grid;
+        grid-template-areas:
+        "b1 b2"
+        "b3 b4"
+        "b5 b6"
+        "b7 b8"
+        "b9 b10"
+        "b11 b12"
+        "b13 b14";
+    }
+    #analyse-table > div {
+        padding: 20px 0;
+      }
+
+    
+}
