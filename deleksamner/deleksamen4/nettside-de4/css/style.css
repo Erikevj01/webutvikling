@@ -119,7 +119,7 @@ main section{
 }
 
 #kart{
-    max-width: 300px;
+    max-width: 400px;
 }
 
 #media-buttons{
@@ -269,6 +269,6 @@ footer{
     }
 
     #kart{
-        max-width: 600px;
+        max-width: 800px;
     }
 }
