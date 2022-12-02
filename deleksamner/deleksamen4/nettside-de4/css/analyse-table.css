@@ -34,9 +34,13 @@
     padding: 5px;
 }
 
-#analyse-table > div {
+#analyse-table > div{
     text-align: center;
     padding: 5px;
+}
+
+#analyse-table > div > div > img{
+    max-width: 400px;
 }
 
 /**/
